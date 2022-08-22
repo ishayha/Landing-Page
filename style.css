@@ -1,0 +1,91 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFDD0;
+    padding: 16px;
+    font-size: 18px;
+}
+
+#web_logo{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.header_link{
+    display: flex;
+    gap: 16px;
+}
+/* Opening start */
+.opening{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fad99b;
+    padding: 16px;
+    padding-bottom: 50px;
+
+}
+
+.text_opener{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+#one{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+#join{
+    padding: 4px 18px;
+    font-size: 14px;
+    background-color: #3ff257;
+}
+
+#two{
+    font-size: 15px;
+    margin-top: 0px;
+    max-width: 250px;
+}
+
+.cams{
+    max-width: 300px;
+    max-height: 300px;
+}
+/* This is for opening end*/
+
+.main_body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.equipment{
+    display:flex;
+    flex-direction: column;
+}
+
+.cameras{
+    max-width: 125px;
+    max-height: 125px;
+    display: flex;
+    flex: 1;
+    border: 3px solid #4d4d4d;
+}
+
+#main_text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
