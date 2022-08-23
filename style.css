@@ -1,13 +1,13 @@
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFFDD0;
+    background-color: #002B5B;
     padding: 16px;
     font-size: 18px;
 }
@@ -15,7 +15,7 @@ a{
 #web_logo{
     width: 50px;
     height: 50px;
-    margin: 0;
+    margin-left: 1.5em;
     padding: 0;
 }
 
@@ -28,7 +28,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #fad99b;
+    background-color: #01336b;
     padding: 16px;
     padding-bottom: 50px;
 
@@ -39,6 +39,7 @@ a{
     flex-direction: column;
     align-items: flex-start;
     padding: 16px;
+    color: white;
 }
 
 #one{
@@ -89,3 +90,51 @@ a{
     font-weight: 600;
 }
 
+.quotes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #4d4d4d;
+    padding: 2em;
+}
+
+.quotesin{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #4d4d4d;
+    margin: 16px;
+    color:#d1d1d1;
+}
+#quotes_1, #quotes_2{
+    margin: 8px;
+}
+
+#quotes_2{
+    font-weight: 800;
+}
+
+.join{
+    display: flex;
+    justify-content: center;
+}
+.join_box{
+    display: flex;
+    align-items: center;
+    gap:10em;
+    background-color: #0078AA;
+    padding: 25px 100px;
+    margin: 50px;
+}
+.join_text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#join_button{
+    font-size: 16px;
+    padding: 4px 24px;
+    align-self: flex-end;
+    background-color: #0078AA;
+    border: solid white;
+}
